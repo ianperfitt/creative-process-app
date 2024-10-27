@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { StrategyService } from '../strategy.service';
 
 @Component({
-  selector: 'hello-world',
-  templateUrl: './hello-world.component.html',
-  styleUrl: './hello-world.component.scss'
+  selector: 'oblique-strategy',
+  templateUrl: './oblique-strategy.component.html',
+  styleUrl: './oblique-strategy.component.scss'
 })
-export class HelloWorldComponent implements OnInit{
+export class ObliqueStrategyComponent implements OnInit{
 
   strategies : string[] = [];
   currentStrategy : string = "";
@@ -25,6 +25,4 @@ export class HelloWorldComponent implements OnInit{
     let index = this.getRandomIndex(0, this.strategies.length - 1);
     this.currentStrategy =  this.strategies[index];
   }
-
-
 }
