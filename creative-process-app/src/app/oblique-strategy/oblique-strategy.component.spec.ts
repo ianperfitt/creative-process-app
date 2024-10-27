@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HelloWorldComponent } from './hello-world.component';
+import { HelloWorldComponent } from './oblique-strategy.component';
 
 describe('HelloWorldComponent', () => {
   let component: HelloWorldComponent;
